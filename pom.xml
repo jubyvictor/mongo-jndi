@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.mongodb</groupId>
+	<artifactId>mongo-jndi</artifactId>
+	<name>Mongo JNDI factory</name>
+	<url>https://github.com/jvmisc22/mongo-jndi</url>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+	
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<jdk.version>1.7</jdk.version>
+		<mongodb.driver.version>2.11.2</mongodb.driver.version>
+	</properties>
+	
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>${mongodb.driver.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.testng</groupId>
+		    <artifactId>testng</artifactId>
+		    <version>6.8.5</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>			
+						
+</project>
